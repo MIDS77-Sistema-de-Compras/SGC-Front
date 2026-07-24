@@ -1,4 +1,4 @@
-const API_TARGET_URL = process.env.API_TARGET_URL || "http://10.129.227.138:8081";
+const API_TARGET_URL = process.env.API_TARGET_URL || "http://ec2-54-241-55-128.us-west-1.compute.amazonaws.com:8081";
 
 function buildTargetUrl(path, search) {
     const cleanBaseUrl = API_TARGET_URL.replace(/\/$/, "");
