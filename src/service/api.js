@@ -1,6 +1,6 @@
 export const API_BASE_URL =
     process.env.NEXT_PUBLIC_API_URL ||
-    "http://ec2-54-241-55-128.us-west-1.compute.amazonaws.com:8081";
+    "/api";
 
 export function getPageContent(response) {
     return Array.isArray(response)
