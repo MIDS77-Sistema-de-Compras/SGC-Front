@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.github
+.idea
+.vscode
+npm-debug.log*
+.env*
+!.env.example
+README.md
+.storybook
+storybook-static
+coverage
+certificates
+debug_users.json
